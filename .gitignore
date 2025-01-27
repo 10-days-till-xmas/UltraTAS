@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/UltraTAS/.vs
+/UltraTAS/UltraTAS/lib
+/UltraTAS/UltraTAS/obj/Debug
+/UltraTAS/UltraTAS/obj/Release/netstandard2.0
+/UltraTAS/UltraTAS/obj/project.assets.json
+/UltraTAS/UltraTAS/obj/project.nuget.cache
+/UltraTAS/UltraTAS/obj/UltraTAS.csproj.nuget.dgspec.json
+/UltraTAS/UltraTAS/obj/UltraTAS.csproj.nuget.g.props

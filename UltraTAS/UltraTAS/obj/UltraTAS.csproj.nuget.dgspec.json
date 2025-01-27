@@ -1,32 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dolfelive\\source\\repos\\UltraTAS\\UltraTAS\\UltraTAS.csproj": {}
+    "C:\\Users\\10_days_till_xmas\\Documents\\coding\\C#\\UltraModding\\UltraTAS\\UltraTAS\\UltraTAS\\UltraTAS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dolfelive\\source\\repos\\UltraTAS\\UltraTAS\\UltraTAS.csproj": {
+    "C:\\Users\\10_days_till_xmas\\Documents\\coding\\C#\\UltraModding\\UltraTAS\\UltraTAS\\UltraTAS\\UltraTAS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dolfelive\\source\\repos\\UltraTAS\\UltraTAS\\UltraTAS.csproj",
+        "projectUniqueName": "C:\\Users\\10_days_till_xmas\\Documents\\coding\\C#\\UltraModding\\UltraTAS\\UltraTAS\\UltraTAS\\UltraTAS.csproj",
         "projectName": "UltraTAS",
-        "projectPath": "C:\\Users\\dolfelive\\source\\repos\\UltraTAS\\UltraTAS\\UltraTAS.csproj",
-        "packagesPath": "C:\\Users\\dolfelive\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dolfelive\\source\\repos\\UltraTAS\\UltraTAS\\obj\\",
+        "projectPath": "C:\\Users\\10_days_till_xmas\\Documents\\coding\\C#\\UltraModding\\UltraTAS\\UltraTAS\\UltraTAS\\UltraTAS.csproj",
+        "packagesPath": "C:\\Users\\10_days_till_xmas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\10_days_till_xmas\\Documents\\coding\\C#\\UltraModding\\UltraTAS\\UltraTAS\\UltraTAS\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\dolfelive\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\10_days_till_xmas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net6.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.bepinex.dev/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
             "projectReferences": {}
           }
         },
@@ -39,12 +45,19 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
           "dependencies": {
+            "BepInEx.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.8, )"
+            },
             "Krafs.Publicizer": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -63,12 +76,29 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
